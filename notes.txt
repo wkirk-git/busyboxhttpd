@@ -1,0 +1,4 @@
+Squashed everything down to one source commit.
+This fork updates to Alpine 3.22.1 and Busybox 1.37.0
+and will not upstream as the source is very tightly 
+coupled to the authors dockerhub repo.
