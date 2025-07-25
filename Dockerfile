@@ -42,10 +42,7 @@ WORKDIR /home/static
 # This is only needed in order to set the `-c` argument in this base file
 # and save the developer the need to override the CMD line in case they ever
 # want to use a httpd.conf
-COPY httpd.conf .
-COPY index.html .
-COPY test.json .
-COPY favicon.ico .
+COPY httpd.conf index.html favicon.ico .
 # Copy the static website
 # Use the .dockerignore file to control what ends up inside the image!
 # NOTE: Commented out since this will also copy the .config file

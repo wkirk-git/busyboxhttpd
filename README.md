@@ -1,6 +1,6 @@
 # busyboxhttpd
 
-A very small Docker image (~92.5KB) to run any static website, based on the [BusyBox httpd](https://www.busybox.net/) static file server.
+A very small Docker image (~110KB) to run any static website, based on the [BusyBox httpd](https://www.busybox.net/) static file server.
 
 Alpine Version : 3.22.1
 
