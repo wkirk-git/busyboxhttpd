@@ -1,5 +1,8 @@
 # busyboxhttpd
 
+[![docker:whkirk/busyboxhttpd](https://img.shields.io/docker/v/whkirk/busyboxhttpd?logo=docker&label=whkirk%2Fbusyboxhttpd)](https://hub.docker.com/r/whkirk/busyboxhttpd/tags)
+
+
 A very small Docker image (~110KB) to run any static website, based on the [BusyBox httpd](https://www.busybox.net/) static file server.
 
 Alpine Version : 3.22.1
